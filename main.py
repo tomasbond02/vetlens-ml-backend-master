@@ -7,6 +7,7 @@ import numpy as np
 from keras.models import load_model
 import os
 
+
 app = FastAPI()
 
 model_path = os.path.abspath(os.path.join('model', 'vetlens_enb2_v2_5c.h5'))
